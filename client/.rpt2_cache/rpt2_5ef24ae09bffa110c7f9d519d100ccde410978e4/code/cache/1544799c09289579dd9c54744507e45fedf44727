@@ -1,0 +1,7 @@
+{
+  "code": "import { LayerManager } from \"./LayerManager\";\r\nexport class SceneManager {\r\n    constructor() {\r\n        this.gameLayer = LayerManager.instance.gameLayer;\r\n    }\r\n    static get instance() {\r\n        if (!this._instance) {\r\n            this._instance = new this();\r\n        }\r\n        return this._instance;\r\n    }\r\n    openScene(cls, param = null, complate = null, closeOther = true) {\r\n        cls.showScene(param, complate);\r\n        this.gameLayer.addChild(cls);\r\n        if (closeOther && this.currentDisplayScene) {\r\n            this.currentDisplayScene.hideScene();\r\n        }\r\n        this.currentDisplayScene = cls;\r\n    }\r\n    loadScene(url, complate = null) {\r\n        Laya.loader.create(url, complate);\r\n    }\r\n}\r\nSceneManager._gameScene = null;\r\nSceneManager._viewScene = null;\r\n",
+  "references": [
+    "E:/project/duorou/client/src/game/scene/SceneBase.ts",
+    "E:/project/duorou/client/src/manager/LayerManager.ts"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+"1":{"strpicture":"gameui/main/Btn_AutoPickMoney.png","strdeclare":"解锁自动捡钱功能解锁，开启后清洁工将帮你拾取金币","closebutton":0,"share":0,"skipID":-1,"strname":"解锁自动捡钱功能","closeui":1},
+"2":{"strpicture":"gameui/main/Btn_AutoTakePhoto.png","strdeclare":"解锁自动拍照功能解锁，开启后摄影师会去帮助游戏拍照并收取金币","closebutton":0,"share":0,"skipID":-1,"strname":"解锁自动拍照功能","closeui":1},
+"3":{"strpicture":"gameui/main/UI_xuanchuan_00.png","strdeclare":"解锁宣传功能解锁宣传功能解锁宣传功能","closebutton":0,"share":0,"skipID":-1,"strname":"解锁宣传功能","closeui":1},
+"4":{"strpicture":"res/icon/zzdjs.png","strdeclare":"新的种植点解锁，你可以多种一盆多肉了","closebutton":0,"share":0,"skipID":-1,"strname":"解锁新种植点","closeui":0},
+"5":{"strpicture":"res/icon/zst_1.png","strdeclare":"解锁新采集点解锁新采集点解锁新采集点","closebutton":0,"share":0,"skipID":-1,"strname":"解锁新采集点","closeui":0},
+"6":{"strpicture":"res/icon/hyzs_03.png","strdeclare":"解锁新采集地图解锁新采集地图解锁新采集地图","closebutton":0,"share":0,"skipID":-1,"strname":"解锁新采集地图","closeui":0},
+"7":{"strpicture":"res/icon/7.png","strdeclare":"土豪游客解锁，土豪游客会给你更多的钱","closebutton":0,"share":0,"skipID":-1,"strname":"解锁新游客","closeui":0},
+"8":{"strpicture":"res/icon/9.png","strdeclare":"捣乱者解锁，捣乱者会影响其他玩家观赏多肉，一定要赶走他","closebutton":0,"share":0,"skipID":-1,"strname":"解锁新游客","closeui":0},
+"9":{"strpicture":"res/icon/12.png","strdeclare":"小偷解锁，小偷会潜行后偷走你的钱尽早赶走他。","closebutton":0,"share":0,"skipID":-1,"strname":"解锁新游客","closeui":0}
+}

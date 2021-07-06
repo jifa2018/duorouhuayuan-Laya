@@ -1,0 +1,8 @@
+{
+"1":{"type":1,"maxstorage":4,"ministorage":2,"strpointname":"defaulsucculent1","flowerpot":{"1":20006,"2":20007,"3":20008,"4":20009,"5":20010,"6":20011,"7":20012,"8":20013,"9":20014}},
+"2":{"type":1,"maxstorage":4,"ministorage":2,"strpointname":"defaulsucculent2","flowerpot":{"1":20008,"2":20009,"3":20010,"4":20011,"5":20012,"6":20013,"7":20014}},
+"3":{"type":1,"maxstorage":5,"ministorage":3,"strpointname":"defaulsucculent3","flowerpot":{"1":20015,"2":20016,"3":20017,"4":20018,"5":20019,"6":20020,"7":20021}},
+"4":{"type":1,"maxstorage":5,"ministorage":3,"strpointname":"defaulsucculent4","flowerpot":{"1":20015,"2":20016,"3":20017,"4":20018,"5":20019,"6":20020,"7":20021}},
+"5":{"type":1,"maxstorage":4,"ministorage":2,"strpointname":"defaulsucculent5","flowerpot":{"1":20006,"2":20007,"3":20008,"4":20009,"5":20010,"6":20011,"7":20012,"8":20013,"9":20014}},
+"6":{"type":1,"maxstorage":6,"ministorage":3,"strpointname":"defaulsucculent6","flowerpot":{"1":20001,"2":20002,"3":20003,"4":20004,"5":20005}}
+}

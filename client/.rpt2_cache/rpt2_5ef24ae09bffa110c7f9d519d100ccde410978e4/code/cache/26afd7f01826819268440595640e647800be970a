@@ -1,0 +1,7 @@
+{
+  "code": "var Script3D = Laya.Script3D;\r\nexport class AIBase extends Script3D {\r\n    onEnable() {\r\n        super.onEnable();\r\n        this.character = this.owner;\r\n    }\r\n    onDisable() {\r\n        super.onDisable();\r\n    }\r\n    onDestroy() {\r\n        super.onDestroy();\r\n    }\r\n    onUpdate() {\r\n        super.onUpdate();\r\n    }\r\n}\r\n",
+  "references": [
+    "E:/project/duorou/client/src/game/ai/IAI.ts",
+    "E:/project/duorou/client/src/game/npc/NpcBase.ts"
+  ]
+}

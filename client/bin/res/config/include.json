@@ -1,0 +1,28 @@
+{
+    "data": [
+		"res/config/Succulent_C.json",
+		"res/config/defaultStatue_C.json",
+		"res/config/Action_C.json",
+		"res/config/path_C.json",
+		"res/config/preload.json",
+		"res/config/Statue_C.json",
+		"res/config/Succulent_C.json",
+		"res/config/drop_C.json",
+		"res/config/sound_C.json",
+		"res/config/constant_C.json",
+		"res/config/Succulentpoint_C.json",
+		"res/config/staff_C.json",
+		"res/config/map_C.json",
+		"res/config/Collection_station_C.json",
+		"res/config/newtip_C.json",
+		"res/config/effect_C.json",
+		"res/config/plantunlock_C.json",
+		"res/config/guide_C.json",
+		"res/config/gift_C.json",
+		"res/config/freeguide_C.json",
+		"res/config/share_C.json",
+		"res/config/Npc_C.json",
+		"res/config/manage_succulent_C.json",
+		"res/config/sceneeffect_C.json"
+    ]
+}

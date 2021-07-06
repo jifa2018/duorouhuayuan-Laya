@@ -1,0 +1,7 @@
+{
+  "code": "import { Singleton } from \"../common/Singleton\";\r\nexport class PreloadManager extends Singleton {\r\n    constructor() {\r\n        super(...arguments);\r\n        this._list = new Array();\r\n    }\r\n    init(callBack) {\r\n        Laya.loader.load(\"res/config/preload.json\", Laya.Handler.create(this, () => {\r\n            let res = Laya.loader.getRes(\"res/config/preload.json\");\r\n            if (!res || res.data.length == 0) {\r\n                return;\r\n            }\r\n            Laya.loader.load(res.data, Laya.Handler.create(this, () => {\r\n                callBack && callBack.run();\r\n            }));\r\n        }));\r\n    }\r\n}\r\n//# sourceMappingURL=PreloadManager.js.map",
+  "references": [
+    "E:/project/duorou/client/src/common/Singleton.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"PreloadManager.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../src/manager/PreloadManager.ts\"],\"names\":[],\"mappings\":\"AACA,OAAO,EAAC,SAAS,EAAC,MAAM,qBAAqB,CAAC;AAE9C,MAAM,OAAO,cAAe,SAAQ,SAAS;IAA7C;;QAIY,UAAK,GAAiB,IAAI,KAAK,EAAU,CAAC;IAyBtD,CAAC;IAbU,IAAI,CAAC,QAAgB;QAExB,IAAI,CAAC,MAAM,CAAC,IAAI,CAAC,yBAAyB,EAAE,IAAI,CAAC,OAAO,CAAC,MAAM,CAAC,IAAI,EAAE,GAAG,EAAE;YAEvE,IAAI,GAAG,GAAG,IAAI,CAAC,MAAM,CAAC,MAAM,CAAC,yBAAyB,CAAC,CAAC;YACxD,IAAI,CAAC,GAAG,IAAI,GAAG,CAAC,IAAI,CAAC,MAAM,IAAI,CAAC,EAAE;gBAC9B,OAAO;aACV;YACD,IAAI,CAAC,MAAM,CAAC,IAAI,CAAC,GAAG,CAAC,IAAI,EAAE,IAAI,CAAC,OAAO,CAAC,MAAM,CAAC,IAAI,EAAE,GAAG,EAAE;gBACtD,QAAQ,IAAI,QAAQ,CAAC,GAAG,EAAE,CAAC;YAC/B,CAAC,CAAC,CAAC,CAAC;QACR,CAAC,CAAC,CAAC,CAAC;IACR,CAAC;CACJ\"}"
+}

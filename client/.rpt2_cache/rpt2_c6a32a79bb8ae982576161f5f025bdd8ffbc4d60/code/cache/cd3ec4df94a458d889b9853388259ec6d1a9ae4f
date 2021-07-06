@@ -1,0 +1,10 @@
+{
+  "code": "import { RemoteCall } from \"./net/RemoteCall\";\r\nimport { Player } from \"./player/Player\";\r\nimport Application from \"../common/Application\";\r\nexport class MyPlayer {\r\n    static get bInGame() {\r\n        return this._bInGame;\r\n    }\r\n    static OnStart() {\r\n        this._bInGame = false;\r\n    }\r\n    static OnDestroy() {\r\n        this._bInGame = false;\r\n    }\r\n    static ReqPlayLog(play_type = null, play_name = null, play_param = null, op_type = null, use_time = null) {\r\n        RemoteCall.instance.Send(\"K_ReqPlayLog\", play_type, play_name, play_param, op_type, use_time);\r\n    }\r\n    static EnterMap() {\r\n        if (this._bInGame) {\r\n            return;\r\n        }\r\n        this._bInGame = true;\r\n        Player.getInstance().setName(\"111\");\r\n        Player.getInstance().refreshStorage();\r\n        Application.onLoading();\r\n    }\r\n}\r\n//# sourceMappingURL=MyPlayer.js.map",
+  "references": [
+    "E:/project/duorou/client/src/platform/WxSDKManager.ts",
+    "E:/project/duorou/client/src/game/net/RemoteCall.ts",
+    "E:/project/duorou/client/src/game/player/Player.ts",
+    "E:/project/duorou/client/src/common/Application.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"MyPlayer.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../src/game/MyPlayer.ts\"],\"names\":[],\"mappings\":\"AACA,OAAO,EAAE,UAAU,EAAE,MAAM,kBAAkB,CAAC;AAC9C,OAAO,EAAE,MAAM,EAAE,MAAM,iBAAiB,CAAC;AACzC,OAAO,WAAW,MAAM,uBAAuB,CAAC;AAMhD,MAAM,OAAO,QAAQ;IAMV,MAAM,KAAK,OAAO;QACrB,OAAO,IAAI,CAAC,QAAQ,CAAC;IACzB,CAAC;IAEM,MAAM,CAAC,OAAO;QACjB,IAAI,CAAC,QAAQ,GAAG,KAAK,CAAC;IAC1B,CAAC;IAEM,MAAM,CAAC,SAAS;QACnB,IAAI,CAAC,QAAQ,GAAG,KAAK,CAAC;IAC1B,CAAC;IAGM,MAAM,CAAC,UAAU,CAAC,YAAoB,IAAI,EAAE,YAAoB,IAAI,EAAE,aAAqB,IAAI,EAAE,UAAkB,IAAI,EAAE,WAAmB,IAAI;QACnJ,UAAU,CAAC,QAAQ,CAAC,IAAI,CAAC,cAAc,EAAE,SAAS,EAAE,SAAS,EAAE,UAAU,EAAE,OAAO,EAAE,QAAQ,CAAC,CAAC;IAClG,CAAC;IAGM,MAAM,CAAC,QAAQ;QAClB,IAAI,IAAI,CAAC,QAAQ,EAAE;YACf,OAAM;SACT;QACD,IAAI,CAAC,QAAQ,GAAG,IAAI,CAAC;QAErB,MAAM,CAAC,WAAW,EAAE,CAAC,OAAO,CAAC,KAAK,CAAC,CAAC;QACpC,MAAM,CAAC,WAAW,EAAE,CAAC,cAAc,EAAE,CAAC;QACtC,WAAW,CAAC,SAAS,EAAE,CAAC;IAI5B,CAAC;CACJ\"}"
+}

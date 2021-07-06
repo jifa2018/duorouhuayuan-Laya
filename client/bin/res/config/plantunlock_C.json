@@ -1,0 +1,15 @@
+{
+"1":{"stricon":"res/icon/iconpen-1_1.png","type":1,"struiname":"种植点1","gold":10,"preconditionID":0,"star":10,"strname":"defaulsucculent1","unlockstar":10},
+"2":{"stricon":"res/icon/iconpen-1_1.png","type":1,"struiname":"种植点2","gold":120,"preconditionID":1,"star":20,"strname":"defaulsucculent2","unlockstar":20},
+"3":{"stricon":"res/icon/iconpen-1_1.png","type":1,"struiname":"种植点3","gold":1000,"preconditionID":2,"star":50,"strname":"defaulsucculent3","unlockstar":50},
+"4":{"stricon":"res/icon/iconpen-1_1.png","type":2,"struiname":"装饰点1","gold":500,"preconditionID":3,"star":170,"strname":"defaultStatueNode1","unlockstar":170},
+"5":{"stricon":"res/icon/iconpen-1_1.png","type":2,"struiname":"装饰点2","gold":1000,"preconditionID":4,"star":190,"strname":"defaultStatueNode2","unlockstar":190},
+"6":{"stricon":"res/icon/iconpen-1_1.png","type":1,"struiname":"种植点4","gold":5000,"preconditionID":4,"star":250,"strname":"defaulsucculent4","unlockstar":250},
+"7":{"stricon":"res/icon/iconpen-1_1.png","type":2,"struiname":"装饰点3","gold":10000,"preconditionID":6,"star":300,"strname":"defaultStatueNode3","unlockstar":300},
+"8":{"stricon":"res/icon/iconpen-1_1.png","type":1,"struiname":"种植点5","gold":10000,"preconditionID":6,"star":380,"strname":"defaulsucculent5","unlockstar":380},
+"9":{"stricon":"res/icon/iconpen-1_1.png","type":2,"struiname":"装饰点4","gold":20000,"preconditionID":8,"star":500,"strname":"defaultStatueNode4","unlockstar":500},
+"10":{"stricon":"res/icon/iconpen-1_1.png","type":2,"struiname":"装饰点5","gold":20000,"preconditionID":8,"star":700,"strname":"defaultStatueNode5","unlockstar":700},
+"11":{"stricon":"res/icon/iconpen-1_1.png","type":1,"struiname":"种植点6","gold":30000,"preconditionID":10,"star":1000,"strname":"defaulsucculent6","unlockstar":1000},
+"12":{"stricon":"res/icon/iconpen-1_1.png","type":2,"struiname":"装饰点6","gold":30000,"preconditionID":11,"star":5000,"strname":"defaultStatueNode6","unlockstar":5000},
+"13":{"stricon":"res/icon/iconpen-1_1.png","type":2,"struiname":"装饰点6","gold":100000,"preconditionID":12,"star":10000,"strname":"defaultStatueNode7","unlockstar":10000}
+}

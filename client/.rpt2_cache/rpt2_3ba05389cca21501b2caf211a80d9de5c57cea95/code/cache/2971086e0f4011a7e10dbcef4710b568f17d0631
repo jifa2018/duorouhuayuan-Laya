@@ -1,0 +1,7 @@
+{
+  "code": "import { NpcBaseState, NpcStateType } from \"./NpcBaseState\";\r\nexport class NpcActionState extends NpcBaseState {\r\n    constructor(ai, ty) {\r\n        super(ai);\r\n        this.type = ty;\r\n    }\r\n    Enter() {\r\n        super.Enter();\r\n        this._aiBase.onPay(this.type);\r\n    }\r\n    Update() {\r\n        super.Update();\r\n    }\r\n    Exit() {\r\n        super.Exit();\r\n    }\r\n    GetType() {\r\n        return NpcStateType.Action;\r\n    }\r\n}\r\n//# sourceMappingURL=NpcActionState.js.map",
+  "references": [
+    "E:/project/duorou/client/src/game/npc/npcstate/NpcBaseState.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"NpcActionState.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../../../src/game/npc/npcstate/NpcActionState.ts\"],\"names\":[],\"mappings\":\"AAAA,OAAO,EAAC,YAAY,EAAE,YAAY,EAAC,MAAM,gBAAgB,CAAC;AAE1D,MAAM,OAAO,cAAe,SAAQ,YAAY;IAG5C,YAAY,EAAE,EAAC,EAAE;QACb,KAAK,CAAC,EAAE,CAAC,CAAC;QACV,IAAI,CAAC,IAAI,GAAG,EAAE,CAAC;IACnB,CAAC;IAEM,KAAK;QAER,KAAK,CAAC,KAAK,EAAE,CAAC;QAEd,IAAI,CAAC,OAAO,CAAC,KAAK,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC;IAClC,CAAC;IAEM,MAAM;QAET,KAAK,CAAC,MAAM,EAAE,CAAC;IACnB,CAAC;IAEM,IAAI;QAEP,KAAK,CAAC,IAAI,EAAE,CAAC;IACjB,CAAC;IAEM,OAAO;QAEV,OAAO,YAAY,CAAC,MAAM,CAAA;IAE9B,CAAC;CACJ\"}"
+}

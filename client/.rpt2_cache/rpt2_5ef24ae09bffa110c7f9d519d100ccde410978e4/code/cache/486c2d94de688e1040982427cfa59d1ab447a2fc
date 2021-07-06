@@ -1,0 +1,8 @@
+{
+  "code": "var Sprite3D = Laya.Sprite3D;\r\nvar Animator = Laya.Animator;\r\nimport { MoveController } from \"../script/MoveController\";\r\nvar Pool = Laya.Pool;\r\nexport class NpcBase extends Sprite3D {\r\n    constructor() {\r\n        super();\r\n    }\r\n    onLoad() {\r\n    }\r\n    onMove() {\r\n    }\r\n    onStop() {\r\n    }\r\n    onUpdate() {\r\n    }\r\n    onDestroy() {\r\n        this.recover();\r\n    }\r\n    cloneThis(sp3d) {\r\n        this.sprite3dNode = sp3d.clone();\r\n        this._moveController = this.addComponent(MoveController);\r\n        this.addChild(this.sprite3dNode);\r\n    }\r\n    recover() {\r\n        Pool.recover(this.clsName, this);\r\n    }\r\n    playAnimation(name) {\r\n        if (!this._animator)\r\n            this._animator = this.sprite3dNode.getComponent(Animator);\r\n        if (!this._animator)\r\n            return;\r\n        this._animator.play(name);\r\n    }\r\n    moveTo(path, complate) {\r\n        if (this._moveController) {\r\n            this._moveController.moveTo(path, complate);\r\n        }\r\n    }\r\n}\r\n",
+  "references": [
+    "E:/project/duorou/client/src/game/npc/INpc.ts",
+    "E:/project/duorou/client/src/game/script/MoveController.ts",
+    "E:/project/duorou/client/src/game/ai/AIBase.ts"
+  ]
+}

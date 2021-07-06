@@ -1,0 +1,6 @@
+{
+"1":{"strtouch_off":"{2:defaulsucculent1}","strdeclare":"[#cdc8b0]请选择花盆开始种植多肉","next":2,"strpopoexcursion":"130,23","save":0,"stropen":"{1:DiyChangePot}","object_type":2},
+"2":{"strtouch_off":"{1:1}","strdeclare":"[#ffffff]请拖拽多肉至种植盆中","next":3,"strpopoexcursion":"150,270","save":0,"stropen":"{1:DiyView,3:0}","object_type":2},
+"3":{"strtouch_off":"{2:defaulsucculent1}","strdeclare":"[#ffffff]调整进度条可改变植物大小","next":4,"strpopoexcursion":"130,670","save":0,"stropen":"{1:DiyView,3:1}","object_type":2},
+"4":{"strtouch_off":"{2:defaulsucculent1}","strdeclare":"[#ffffff]界面中会显示盆栽种植量","next":-1,"strpopoexcursion":"150,770","save":1,"stropen":"{1:DiyView,3:1}","object_type":2}
+}

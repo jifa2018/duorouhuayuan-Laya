@@ -1,0 +1,13 @@
+
+anniu_guangxian.png
+size: 42,81
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/光线
+  rotate: false
+  xy: 2, 2
+  size: 38, 77
+  orig: 38, 77
+  offset: 0, 0
+  index: -1

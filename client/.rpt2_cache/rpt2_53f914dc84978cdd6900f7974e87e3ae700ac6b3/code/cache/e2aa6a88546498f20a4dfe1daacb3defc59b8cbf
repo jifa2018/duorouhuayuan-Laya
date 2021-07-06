@@ -1,0 +1,7 @@
+{
+  "code": "import { NpcBaseState, NpcStateType } from \"./NpcBaseState\";\r\nexport class NpcDefaultState extends NpcBaseState {\r\n    constructor(npc) {\r\n        super(npc);\r\n    }\r\n    GetType() {\r\n        return NpcStateType.Default;\r\n    }\r\n}\r\n//# sourceMappingURL=NpcDefaultState.js.map",
+  "references": [
+    "E:/project/duorou/client/src/game/npc/npcstate/NpcBaseState.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"NpcDefaultState.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../../../src/game/npc/npcstate/NpcDefaultState.ts\"],\"names\":[],\"mappings\":\"AAAA,OAAO,EAAC,YAAY,EAAE,YAAY,EAAC,MAAM,gBAAgB,CAAC;AAE1D,MAAM,OAAO,eAAgB,SAAQ,YAAY;IAE7C,YAAY,GAAG;QACX,KAAK,CAAC,GAAG,CAAC,CAAC;IACf,CAAC;IAYM,OAAO;QAEV,OAAO,YAAY,CAAC,OAAO,CAAA;IAC/B,CAAC;CACJ\"}"
+}

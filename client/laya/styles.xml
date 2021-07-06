@@ -1,0 +1,18 @@
+<res>
+   <item name="gameui/gather/bg.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=130,181,130,156" picType="0" scale="0"/>
+   <item name="gameui/gather/decorate.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=30,35,0,36" picType="0" scale="0"/>
+   <item name="gameui/gather/updatebg.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=25,25,25,25" picType="0" scale="0"/>
+   <item name="gameui/gather/staffuserbg.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=40,50,40,50" picType="0" scale="0"/>
+   <item name="gameui/gather/progressbg.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=0,25,0,25" picType="0" scale="0"/>
+   <item name="gameui/gather/progress.png" type="ProgressBar" compress="0" pack="0" quality="80" props="sizeGrid=0,25,0,25" picType="0" scale="0"/>
+   <item name="common/bg.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=122,162,131,135" picType="0" scale="0"/>
+   <item name="gameui/staff/greenbutton.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=0,30,0,30" picType="0" scale="0"/>
+   <item name="gameui/staff/graybutton.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=0,30,0,30" picType="0" scale="0"/>
+   <item name="gameui/staffcommon/bg.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=20,20,20,20" picType="0" scale="0"/>
+   <item name="gameui/staffcommon/namebg.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=10,10,10,10" picType="0" scale="0"/>
+   <item name="common/tipbg.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=50,42,50,43" picType="0" scale="0"/>
+   <item name="gameui/unlock/bg.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=0,90,0,90" picType="0" scale="0"/>
+   <item name="gameui/flowerstate/progress.png" type="ProgressBar" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="gameui/main/progressBar.png" type="ProgressBar" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="gameui/main/progressBar2.png" type="Sprite" compress="0" pack="2" quality="80" props="sizeGrid=0,0,0,4" picType="0" scale="0"/>
+</res>

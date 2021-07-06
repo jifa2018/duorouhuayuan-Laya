@@ -1,0 +1,10 @@
+{
+  "code": "import { NpcBase } from \"./NpcBase\";\r\nimport { MoveController } from \"../script/MoveController\";\r\nvar Handler = Laya.Handler;\r\nvar Vector3 = Laya.Vector3;\r\nimport { Effect3D } from \"../../effect/Effect3D\";\r\nimport { ResourceManager } from \"../../manager/ResourceManager\";\r\nimport { RandomMove } from \"../ai/RandomMove\";\r\nexport class SaunterNpc extends NpcBase {\r\n    constructor() {\r\n        super();\r\n        this.onLoad();\r\n    }\r\n    onLoad() {\r\n        super.onLoad();\r\n        ResourceManager.instance.getResource(\"res/npc/Role_yg_01_skin.lh\", Handler.create(this, function (node) {\r\n            node.transform.localPosition = new Vector3(0, 0, 0);\r\n            node.transform.position = new Vector3(0, 0, 0);\r\n            this.sprite3dNode = node;\r\n            this._moveController = this.addComponent(MoveController);\r\n            Laya.timer.callLater(this, function () {\r\n                this._aiController = this.addComponent(RandomMove);\r\n            });\r\n            this.addChild(this.sprite3dNode);\r\n            var d = new Effect3D();\r\n            d.createFollowEffect(\"res/effect/zhishengji_hit01.lh\", node, 0, true);\r\n        }));\r\n    }\r\n    onMove() {\r\n        super.onMove();\r\n    }\r\n    onStop() {\r\n        super.onStop();\r\n    }\r\n    onUpdate() {\r\n        super.onUpdate();\r\n    }\r\n    onDestroy() {\r\n    }\r\n}\r\n",
+  "references": [
+    "E:/project/duorou/client/src/game/npc/NpcBase.ts",
+    "E:/project/duorou/client/src/game/script/MoveController.ts",
+    "E:/project/duorou/client/src/effect/Effect3D.ts",
+    "E:/project/duorou/client/src/manager/ResourceManager.ts",
+    "E:/project/duorou/client/src/game/ai/RandomMove.ts"
+  ]
+}

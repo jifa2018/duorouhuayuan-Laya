@@ -1,0 +1,9 @@
+{
+  "code": "import { LayerManager } from \"./LayerManager\";\r\nimport { Singleton } from \"../common/Singleton\";\r\nexport class SceneManager extends Singleton {\r\n    constructor() {\r\n        super();\r\n        this.gameLayer = LayerManager.getInstance().gameLayer;\r\n    }\r\n    openScene(cls, param = null, complate = null, closeOther = true) {\r\n        cls.showScene(param, complate);\r\n        this.gameLayer.addChild(cls);\r\n        if (closeOther && this.currentDisplayScene) {\r\n            this.currentDisplayScene.hideScene();\r\n        }\r\n        this.currentDisplayScene = cls;\r\n    }\r\n    loadScene(url, complate = null) {\r\n        Laya.loader.create(url, complate);\r\n    }\r\n}\r\nSceneManager._gameScene = null;\r\nSceneManager._viewScene = null;\r\n//# sourceMappingURL=SceneManager.js.map",
+  "references": [
+    "E:/project/duorou/client/src/game/scene/SceneBase.ts",
+    "E:/project/duorou/client/src/manager/LayerManager.ts",
+    "E:/project/duorou/client/src/common/Singleton.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"SceneManager.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../src/manager/SceneManager.ts\"],\"names\":[],\"mappings\":\"AAGA,OAAO,EAAC,YAAY,EAAC,MAAM,gBAAgB,CAAC;AAC5C,OAAO,EAAC,SAAS,EAAC,MAAM,qBAAqB,CAAC;AAE9C,MAAM,OAAO,YAAa,SAAQ,SAAS;IAQvC;QAEI,KAAK,EAAE,CAAC;QACR,IAAI,CAAC,SAAS,GAAG,YAAY,CAAC,WAAW,EAAE,CAAC,SAAS,CAAC;IAC1D,CAAC;IAWM,SAAS,CAAC,GAAO,EAAE,QAAY,IAAI,EAAC,WAAmB,IAAI,EAAE,aAAqB,IAAI;QAGzF,GAAG,CAAC,SAAS,CAAC,KAAK,EAAE,QAAQ,CAAC,CAAC;QAC/B,IAAI,CAAC,SAAS,CAAC,QAAQ,CAAC,GAAG,CAAC,CAAC;QAC7B,IAAG,UAAU,IAAI,IAAI,CAAC,mBAAmB,EACzC;YACI,IAAI,CAAC,mBAAmB,CAAC,SAAS,EAAE,CAAC;SAExC;QACD,IAAI,CAAC,mBAAmB,GAAG,GAAG,CAAC;IACnC,CAAC;IAEM,SAAS,CAAC,GAAU,EAAE,WAAmB,IAAI;QAEhD,IAAI,CAAC,MAAM,CAAC,MAAM,CAAC,GAAG,EAAE,QAAQ,CAAC,CAAA;IACrC,CAAC;;AApCc,uBAAU,GAAG,IAAI,CAAC;AAClB,uBAAU,GAAG,IAAI,CAAC\"}"
+}

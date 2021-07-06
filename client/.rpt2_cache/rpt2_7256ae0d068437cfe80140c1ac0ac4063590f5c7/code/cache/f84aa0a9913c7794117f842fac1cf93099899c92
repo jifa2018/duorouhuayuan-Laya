@@ -1,0 +1,7 @@
+{
+  "code": "export var NpcStateType;\r\n(function (NpcStateType) {\r\n    NpcStateType[\"None\"] = \"none\";\r\n    NpcStateType[\"Default\"] = \"default\";\r\n    NpcStateType[\"Move\"] = \"move\";\r\n    NpcStateType[\"Action\"] = \"action\";\r\n    NpcStateType[\"DriveAway\"] = \"driveaway\";\r\n    NpcStateType[\"Idle\"] = \"idle\";\r\n})(NpcStateType || (NpcStateType = {}));\r\nexport class NpcBaseState {\r\n    constructor(aiBase) {\r\n        this._aiBase = aiBase;\r\n    }\r\n    Enter() { }\r\n    Update() { }\r\n    Exit() { }\r\n    GetType() {\r\n        return NpcStateType.None;\r\n    }\r\n}\r\n//# sourceMappingURL=NPCBaseState.js.map",
+  "references": [
+    "E:/project/duorou/client/src/game/ai/AIBase.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"NPCBaseState.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../../../src/game/npc/npcstate/NPCBaseState.ts\"],\"names\":[],\"mappings\":\"AAEA,MAAM,CAAN,IAAY,YAQV;AARF,WAAY,YAAY;IAEnB,6BAAa,CAAA;IACb,mCAAmB,CAAA;IACnB,6BAAa,CAAA;IACb,iCAAiB,CAAA;IACjB,uCAAuB,CAAA;IACvB,6BAAc,CAAA;AAClB,CAAC,EARU,YAAY,KAAZ,YAAY,QAQtB;AAGF,MAAM,OAAO,YAAY;IAIrB,YAAY,MAAa;QACrB,IAAI,CAAC,OAAO,GAAG,MAAM,CAAC;IAC1B,CAAC;IAEM,KAAK,KAAG,CAAC;IAET,MAAM,KAAG,CAAC;IAEV,IAAI,KAAG,CAAC;IAER,OAAO;QAEV,OAAO,YAAY,CAAC,IAAI,CAAA;IAC5B,CAAC;CACJ\"}"
+}

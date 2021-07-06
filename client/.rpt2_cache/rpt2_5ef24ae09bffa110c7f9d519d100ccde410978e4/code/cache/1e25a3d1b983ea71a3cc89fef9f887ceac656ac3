@@ -1,0 +1,16 @@
+{
+  "code": "var Event = Laya.Event;\r\nvar Keyboard = Laya.Keyboard;\r\nimport GameScene from \"./game/scene/GameScene\";\r\nvar Vector3 = Laya.Vector3;\r\nimport { SceneItem } from \"./game/item/SceneItem\";\r\nimport { SaunterNpc } from \"./game/npc/SaunterNpc\";\r\nexport class KeyboardTest {\r\n    constructor() {\r\n        Laya.stage.on(Event.KEY_DOWN, this, this.onKeyDown);\r\n    }\r\n    onKeyDown(e) {\r\n        switch (e.keyCode) {\r\n            case Keyboard.T:\r\n                new SceneItem().setPosition(new Vector3(-5, 0, 0));\r\n                break;\r\n            case Keyboard.Y:\r\n                var d = new SaunterNpc();\r\n                GameScene.instance.scene3d.addChild(d);\r\n                break;\r\n            case Keyboard.U:\r\n                break;\r\n        }\r\n    }\r\n}\r\n",
+  "references": [
+    "E:/project/duorou/client/src/manager/SceneManager.ts",
+    "E:/project/duorou/client/src/game/scene/ViewScene.ts",
+    "E:/project/duorou/client/src/utils/Global.ts",
+    "E:/project/duorou/client/src/game/scene/GameScene.ts",
+    "E:/project/duorou/client/src/game/ui/SwitchScene.ts",
+    "E:/project/duorou/client/src/ui/layaMaxUI.ts",
+    "E:/project/duorou/client/src/manager/GameUIManager.ts",
+    "E:/project/duorou/client/src/game/item/SceneItem.ts",
+    "E:/project/duorou/client/src/game/npc/SaunterNpc.ts",
+    "E:/project/duorou/client/src/game/ai/RandomMove.ts",
+    "E:/project/duorou/client/src/effect/Effect3D.ts"
+  ]
+}

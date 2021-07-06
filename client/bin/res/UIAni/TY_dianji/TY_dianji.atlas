@@ -1,0 +1,83 @@
+
+TY_dianji.png
+size: 871,81
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+通用点击_00
+  rotate: false
+  xy: 81, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+通用点击_01
+  rotate: false
+  xy: 160, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+通用点击_02
+  rotate: false
+  xy: 239, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+通用点击_03
+  rotate: false
+  xy: 318, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+通用点击_04
+  rotate: false
+  xy: 397, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+通用点击_05
+  rotate: false
+  xy: 476, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+通用点击_06
+  rotate: false
+  xy: 555, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+通用点击_07
+  rotate: false
+  xy: 634, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+通用点击_08
+  rotate: false
+  xy: 713, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+通用点击_09
+  rotate: false
+  xy: 792, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+通用点击_10
+  rotate: false
+  xy: 2, 2
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1

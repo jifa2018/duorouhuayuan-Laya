@@ -1,0 +1,11 @@
+{
+  "code": "var Script3D = Laya.Script3D;\r\nimport { NpcManager } from \"../../manager/NpcManager\";\r\nexport class AIBase extends Script3D {\r\n    onEnable() {\r\n        super.onEnable();\r\n        this.character = this.owner;\r\n    }\r\n    onDisable() { super.onDisable(); }\r\n    onDestroy() { super.onDestroy(); }\r\n    onUpdate() {\r\n        super.onUpdate();\r\n    }\r\n    isKeepUpMove() { }\r\n    onMove() { }\r\n    onPay(type) { }\r\n    onStop() { }\r\n    ClickTypeThreeNpc(index) { }\r\n    ClickTypeFourNpc() { }\r\n    goAwaryPath() { }\r\n    ActionDonePath() { }\r\n    isContainMarplot(pos) {\r\n        return NpcManager.getInstance().isContainMarplot(pos);\r\n    }\r\n    LookAt(pointName) {\r\n        this.character.LookAtPoint(pointName);\r\n    }\r\n    PlayAnimation(AniName) {\r\n        this.character.playAnimation(AniName);\r\n    }\r\n}\r\n//# sourceMappingURL=AIBase.js.map",
+  "references": [
+    "E:/project/duorou/client/src/game/ai/IAI.ts",
+    "E:/project/duorou/client/src/game/npc/NpcBase.ts",
+    "E:/project/duorou/client/src/manager/NpcManager.ts",
+    "E:/project/duorou/client/src/game/npc/npcstate/NPCBaseState.ts",
+    "E:/project/duorou/client/src/game/npc/npcstate/NpcDriveAwayState.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"AIBase.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../../src/game/ai/AIBase.ts\"],\"names\":[],\"mappings\":\"AAEA,IAAO,QAAQ,GAAG,IAAI,CAAC,QAAQ,CAAC;AAEhC,OAAO,EAAE,UAAU,EAAE,MAAM,0BAA0B,CAAC;AAItD,MAAM,OAAO,MAAO,SAAQ,QAAQ;IAKzB,QAAQ;QAEX,KAAK,CAAC,QAAQ,EAAE,CAAC;QACjB,IAAI,CAAC,SAAS,GAAG,IAAI,CAAC,KAAgB,CAAC;IAC3C,CAAC;IAEM,SAAS,KAAK,KAAK,CAAC,SAAS,EAAE,CAAC,CAAC,CAAC;IAElC,SAAS,KAAK,KAAK,CAAC,SAAS,EAAE,CAAC,CAAC,CAAC;IAElC,QAAQ;QAEV,KAAK,CAAC,QAAQ,EAAE,CAAC;IACtB,CAAC;IAEM,YAAY,KAAG,CAAC;IAEhB,MAAM,KAAQ,CAAC;IAEf,KAAK,CAAC,IAAW,IAAO,CAAC;IAEzB,MAAM,KAAQ,CAAC;IAEf,iBAAiB,CAAC,KAAY,IAAO,CAAC;IACtC,gBAAgB,KAAQ,CAAC;IACzB,WAAW,KAAQ,CAAC;IACpB,cAAc,KAAS,CAAC;IAErB,gBAAgB,CAAC,GAAW;QAEnC,OAAO,UAAU,CAAC,WAAW,EAAE,CAAC,gBAAgB,CAAC,GAAG,CAAC,CAAC;IACzD,CAAC;IAES,MAAM,CAAC,SAAgB;QAE7B,IAAI,CAAC,SAAS,CAAC,WAAW,CAAC,SAAS,CAAC,CAAC;IAC1C,CAAC;IAES,aAAa,CAAC,OAAc;QAElC,IAAI,CAAC,SAAS,CAAC,aAAa,CAAC,OAAO,CAAC,CAAC;IAC1C,CAAC;CAcJ\"}"
+}

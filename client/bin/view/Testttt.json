@@ -1,0 +1,1 @@
+{"type":"Dialog","props":{"width":640,"height":1136},"compId":2,"child":[{"type":"Button","props":{"var":"werrer","skin":"comp/button.png","label":"label","centerY":0.5},"compId":3}],"loadList":["comp/button.png"],"loadList3D":[]}

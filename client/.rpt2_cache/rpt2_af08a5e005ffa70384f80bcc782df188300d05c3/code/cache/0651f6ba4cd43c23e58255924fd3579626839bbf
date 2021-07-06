@@ -1,0 +1,7 @@
+{
+  "code": "import Application from \"./common/Application\";\r\nexport default class GameConfig {\r\n    constructor() {\r\n    }\r\n    static init() {\r\n        var reg = Laya.ClassUtils.regClass;\r\n        reg(\"common/Application.ts\", Application);\r\n    }\r\n}\r\nGameConfig.width = 640;\r\nGameConfig.height = 1136;\r\nGameConfig.scaleMode = \"fixedwidth\";\r\nGameConfig.screenMode = \"vertical\";\r\nGameConfig.alignV = \"top\";\r\nGameConfig.alignH = \"left\";\r\nGameConfig.startScene = \"MainScene.scene\";\r\nGameConfig.sceneRoot = \"\";\r\nGameConfig.debug = false;\r\nGameConfig.stat = false;\r\nGameConfig.physicsDebug = false;\r\nGameConfig.exportSceneToJson = true;\r\nGameConfig.init();\r\n//# sourceMappingURL=GameConfig.js.map",
+  "references": [
+    "E:/project/duorou/client/src/common/Application.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"GameConfig.js\",\"sourceRoot\":\"\",\"sources\":[\"../../src/GameConfig.ts\"],\"names\":[],\"mappings\":\"AACA,OAAO,WAAW,MAAM,sBAAsB,CAAA;AAI9C,MAAM,CAAC,OAAO,OAAO,UAAU;IAa3B;IAAc,CAAC;IACf,MAAM,CAAC,IAAI;QACP,IAAI,GAAG,GAAa,IAAI,CAAC,UAAU,CAAC,QAAQ,CAAC;QAC7C,GAAG,CAAC,uBAAuB,EAAC,WAAW,CAAC,CAAC;IAC7C,CAAC;;AAhBM,gBAAK,GAAQ,GAAG,CAAC;AACjB,iBAAM,GAAQ,IAAI,CAAC;AACnB,oBAAS,GAAQ,YAAY,CAAC;AAC9B,qBAAU,GAAQ,UAAU,CAAC;AAC7B,iBAAM,GAAQ,KAAK,CAAC;AACpB,iBAAM,GAAQ,MAAM,CAAC;AACrB,qBAAU,GAAK,iBAAiB,CAAC;AACjC,oBAAS,GAAQ,EAAE,CAAC;AACpB,gBAAK,GAAS,KAAK,CAAC;AACpB,eAAI,GAAS,KAAK,CAAC;AACnB,uBAAY,GAAS,KAAK,CAAC;AAC3B,4BAAiB,GAAS,IAAI,CAAC;AAO1C,UAAU,CAAC,IAAI,EAAE,CAAC\"}"
+}

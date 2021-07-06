@@ -1,0 +1,4 @@
+{
+  "code": "export default class SceneBase extends Laya.Sprite {\r\n    constructor() {\r\n        super();\r\n        this.sceneLoaded = false;\r\n        this.scene3d = null;\r\n    }\r\n    onAwake() {\r\n        super.onAwake();\r\n    }\r\n    onEnable() {\r\n        super.onEnable();\r\n    }\r\n    onDisable() {\r\n        super.onDisable();\r\n    }\r\n    destroy(destroyChild) {\r\n        super.destroy(destroyChild);\r\n    }\r\n    onDestroy() {\r\n        super.onDestroy();\r\n    }\r\n    showScene(param, handler) {\r\n    }\r\n    hideScene() {\r\n        this.removeSelf();\r\n    }\r\n}\r\n",
+  "references": []
+}

@@ -1,0 +1,24 @@
+{
+	"version":"LAYAMATERIAL:02",
+	"props":{
+		"type":"Laya.ShurikenParticleMaterial",
+		"renderStates":[
+			{
+				"cull":0,
+				"blend":1,
+				"srcBlend":1,
+				"dstBlend":0,
+				"depthWrite":true,
+				"depthTest":515
+			}
+		],
+		"name":"effect_wuti_k_022_a",
+		"alphaTest":false,
+		"renderQueue":3000,
+		"textures":[],
+		"vectors":[],
+		"defines":[
+			"ADDTIVEFOG"
+		]
+	}
+}

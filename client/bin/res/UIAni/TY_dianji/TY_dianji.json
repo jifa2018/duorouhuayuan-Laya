@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "wgPtjkMnWhodG1Q5YvhWJRZ9bzo", "spine": "3.6.53", "width": 128, "height": 128, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "dianji", "parent": "root" }
+],
+"slots": [
+	{ "name": "通用点击_00", "bone": "dianji", "attachment": "通用点击_00", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"通用点击_00": {
+			"通用点击_00": { "width": 128, "height": 128 },
+			"通用点击_01": { "width": 128, "height": 128 },
+			"通用点击_02": { "width": 128, "height": 128 },
+			"通用点击_03": { "width": 128, "height": 128 },
+			"通用点击_04": { "width": 128, "height": 128 },
+			"通用点击_05": { "width": 128, "height": 128 },
+			"通用点击_06": { "width": 128, "height": 128 },
+			"通用点击_07": { "width": 128, "height": 128 },
+			"通用点击_08": { "width": 128, "height": 128 },
+			"通用点击_09": { "width": 128, "height": 128 },
+			"通用点击_10": { "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"通用点击_00": {
+				"attachment": [
+					{ "time": 0, "name": "通用点击_00" },
+					{ "time": 0.0333, "name": "通用点击_01" },
+					{ "time": 0.0667, "name": "通用点击_02" },
+					{ "time": 0.1, "name": "通用点击_03" },
+					{ "time": 0.1333, "name": "通用点击_04" },
+					{ "time": 0.1667, "name": "通用点击_05" },
+					{ "time": 0.2, "name": "通用点击_06" },
+					{ "time": 0.2333, "name": "通用点击_07" },
+					{ "time": 0.2667, "name": "通用点击_08" },
+					{ "time": 0.3, "name": "通用点击_09" },
+					{ "time": 0.3333, "name": "通用点击_10" },
+					{ "time": 0.3667, "name": null }
+				]
+			}
+		}
+	}
+}
+}

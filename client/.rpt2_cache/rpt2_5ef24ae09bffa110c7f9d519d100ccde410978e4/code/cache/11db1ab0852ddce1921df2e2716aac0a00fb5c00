@@ -1,0 +1,4 @@
+{
+  "code": "export class CommonDefine {\r\n}\r\nCommonDefine.EVENT_BEGIN_VIEW = \"beginView\";\r\nCommonDefine.EVENT_END_VIEW = \"endView\";\r\nCommonDefine.EVENT_BEGIN_ROLL = \"beginRoll\";\r\nCommonDefine.EVENT_ROLL_SCREEN = \"rollScreen\";\r\nCommonDefine.EVENT_ROLL_BACK = \"rollBack\";\r\nCommonDefine.EVENT_CLICK_TARGET = \"clickTarget\";\r\nCommonDefine.EVENT_LEFT_ROTATE = \"leftRotate\";\r\nCommonDefine.EVENT_RIGHT_ROTATE = \"rightRotate\";\r\nCommonDefine.EVENT_BIG_ZOOM = \"bigZoom\";\r\nCommonDefine.EVENT_SMALL_ZOOM = \"smallZoom\";\r\nCommonDefine.ANIMATION_WAKL = \"walk\";\r\nCommonDefine.ANIMATION_IDLE = \"idle\";\r\nCommonDefine.SAUNTERNPC = \"saunterNpc\";\r\nCommonDefine.RICHNPC = \"richNpc\";\r\n",
+  "references": []
+}

@@ -1,0 +1,11 @@
+{
+	"data": [
+		"view/DiyScene.json",
+		"view/DiyToolScene.json",
+		"view/LoadingScene.json",
+		"view/PottedList.json",
+		"view/SwitchScene.json",
+		"view/Testttt.json",
+		"view/common/TipViewScene.json"
+	]
+}

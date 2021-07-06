@@ -1,0 +1,15 @@
+{
+  "code": "import { SceneManager } from \"../manager/SceneManager\";\r\nimport { ClassRegister } from \"./ClassRegister\";\r\nimport { ConfigManager } from \"../manager/ConfigManager\";\r\nimport { ShaderPreCompile } from \"../utils/ShaderPreCompile\";\r\nimport { DIYScene } from \"../game/scene/DIYScene\";\r\nexport default class Application extends Laya.Script {\r\n    constructor() {\r\n        super();\r\n    }\r\n    onAwake() {\r\n    }\r\n    onStart() {\r\n        this.starApp();\r\n    }\r\n    onUpdate() {\r\n    }\r\n    onLateUpdate() {\r\n    }\r\n    onDestroy() {\r\n    }\r\n    starApp() {\r\n        ClassRegister.instance;\r\n        new ConfigManager(Laya.Handler.create(this, () => {\r\n            SceneManager.instance.openScene(DIYScene.instance);\r\n        }));\r\n        ShaderPreCompile.shaderCompile();\r\n    }\r\n    onSceneLoaded(scene3d) {\r\n    }\r\n}\r\n",
+  "references": [
+    "E:/project/duorou/client/src/game/scene/GameScene.ts",
+    "E:/project/duorou/client/src/manager/SceneManager.ts",
+    "E:/project/duorou/client/src/utils/Global.ts",
+    "E:/project/duorou/client/src/common/ClassRegister.ts",
+    "E:/project/duorou/client/src/manager/GameUIManager.ts",
+    "E:/project/duorou/client/src/manager/SoundManager.ts",
+    "E:/project/duorou/client/src/manager/ConfigManager.ts",
+    "E:/project/duorou/client/src/utils/ShaderPreCompile.ts",
+    "E:/project/duorou/client/src/game/net/RemoteCall.ts",
+    "E:/project/duorou/client/src/game/scene/DIYScene.ts"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "code": "import { SwitchScene } from \"../game/ui/SwitchScene\";\r\nimport { LoadingScenes } from \"../game/ui/LoadingScenes\";\r\nimport { DiyView } from \"../game/ui/DiyView/DiyView\";\r\nexport class ClassRegister {\r\n    constructor() {\r\n        this.regClass();\r\n    }\r\n    static get instance() {\r\n        if (!this._instance)\r\n            this._instance = new ClassRegister();\r\n        return this._instance;\r\n    }\r\n    regClass() {\r\n        Laya.ClassUtils.regClass(\"SwitchScene\", SwitchScene);\r\n        Laya.ClassUtils.regClass(\"LoadingScene\", LoadingScenes);\r\n        Laya.ClassUtils.regClass(\"DiyView\", DiyView);\r\n    }\r\n}\r\n",
+  "references": [
+    "E:/project/duorou/client/src/game/ui/SwitchScene.ts",
+    "E:/project/duorou/client/src/game/ui/LoadingScenes.ts",
+    "E:/project/duorou/client/src/game/ui/DiyView/DiyView.ts"
+  ]
+}

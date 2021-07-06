@@ -1,0 +1,8 @@
+{
+  "code": "import { ui } from \"../../ui/layaMaxUI\";\r\nimport { Global } from \"../../utils/Global\";\r\nimport { CommonDefine } from \"../../common/CommonDefine\";\r\nvar LoadingSceneUI = ui.view.LoadingSceneUI;\r\nexport class LoadingScenes extends LoadingSceneUI {\r\n    onAwake() {\r\n        super.onAwake();\r\n    }\r\n    onEnable() {\r\n        this.ani1.stop();\r\n        this.ani1.play();\r\n        super.onEnable();\r\n    }\r\n    onDisable() {\r\n        super.onDisable();\r\n        this.ani1.stop();\r\n    }\r\n    onDestroy() {\r\n        super.onDestroy();\r\n    }\r\n    onOpened(param) {\r\n        super.onOpened(param);\r\n    }\r\n    onLeftClick(e) {\r\n        Laya.stage.event(CommonDefine.EVENT_ROLL_SCREEN, [\"right\", Global.gameCamera]);\r\n    }\r\n    onRightClick(e) {\r\n        Laya.stage.event(CommonDefine.EVENT_ROLL_SCREEN, [\"left\", Global.gameCamera]);\r\n    }\r\n    onExitView(e) {\r\n        Laya.stage.event(CommonDefine.EVENT_ROLL_BACK);\r\n    }\r\n}\r\n",
+  "references": [
+    "E:/project/duorou/client/src/ui/layaMaxUI.ts",
+    "E:/project/duorou/client/src/utils/Global.ts",
+    "E:/project/duorou/client/src/common/CommonDefine.ts"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "code": "import { AIBase } from \"./AIBase\";\r\nvar Handler = Laya.Handler;\r\nimport GameScene from \"../scene/GameScene\";\r\nimport { SceneItem } from \"../item/SceneItem\";\r\nimport { ClassPool } from \"../../manager/ClassPool\";\r\nexport class RandomMove extends AIBase {\r\n    constructor() {\r\n        super();\r\n        console.log(\"RandomMove+++\");\r\n    }\r\n    onEnable() {\r\n        super.onEnable();\r\n        this.onMove();\r\n    }\r\n    onMove() {\r\n        this.character.moveTo(GameScene.instance.path, Handler.create(this, this.next));\r\n        Laya.timer.loop(1000, this, function () {\r\n            var item = ClassPool.instance.getItemByClass(\"SceneItem\", SceneItem);\r\n            item.setPosition(this.character.sprite3dNode.transform.position);\r\n            Laya.timer.once(400, this, function () {\r\n                ClassPool.instance.recover(\"SceneItem\", item);\r\n            });\r\n        });\r\n    }\r\n    onStop() {\r\n    }\r\n    onPay() {\r\n    }\r\n    next() {\r\n    }\r\n}\r\n",
+  "references": [
+    "E:/project/duorou/client/src/game/ai/AIBase.ts",
+    "E:/project/duorou/client/src/game/scene/GameScene.ts",
+    "E:/project/duorou/client/src/game/item/SceneItem.ts",
+    "E:/project/duorou/client/src/manager/ClassPool.ts"
+  ]
+}

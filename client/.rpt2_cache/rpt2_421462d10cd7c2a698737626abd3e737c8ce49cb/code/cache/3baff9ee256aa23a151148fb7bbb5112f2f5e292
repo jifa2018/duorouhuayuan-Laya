@@ -1,0 +1,5 @@
+{
+  "code": "export class Global {\r\n}\r\nGlobal.tempVector3 = new Laya.Vector3();\r\nGlobal.sceneLock = false;\r\n//# sourceMappingURL=Global.js.map",
+  "references": [],
+  "map": "{\"version\":3,\"file\":\"Global.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../src/utils/Global.ts\"],\"names\":[],\"mappings\":\"AAEA,MAAM,OAAO,MAAM;;AAED,kBAAW,GAAgB,IAAI,IAAI,CAAC,OAAO,EAAE,CAAC;AAG9C,gBAAS,GAAW,KAAK,CAAC\"}"
+}

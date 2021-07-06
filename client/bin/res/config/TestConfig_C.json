@@ -1,0 +1,9 @@
+{
+"1":{"ChapterName":2601,"BeginLevel":1,"StarTotal":13,"strUrl":"Icon_conglin","ChapterNumbName":2501,"EndLevel":10,"strLevelUrl":"Level_conglin"},
+"2":{"ChapterName":2602,"BeginLevel":11,"StarTotal":30,"strUrl":"Icon_shamo","ChapterNumbName":2502,"EndLevel":20,"strLevelUrl":"Level_shamo"},
+"3":{"ChapterName":2603,"BeginLevel":21,"StarTotal":45,"strUrl":"Icon_xuedi","ChapterNumbName":2503,"EndLevel":35,"strLevelUrl":"Level_xuedi"},
+"4":{"ChapterName":2604,"BeginLevel":36,"StarTotal":45,"strUrl":"Icon_conglin","ChapterNumbName":2504,"EndLevel":50,"strLevelUrl":"Level_conglin"},
+"5":{"ChapterName":2605,"BeginLevel":51,"StarTotal":45,"strUrl":"Icon_shamo","ChapterNumbName":2505,"EndLevel":65,"strLevelUrl":"Level_shamo"},
+"6":{"ChapterName":2606,"BeginLevel":66,"StarTotal":45,"strUrl":"Icon_xuedi","ChapterNumbName":2506,"EndLevel":80,"strLevelUrl":"Level_xuedi"},
+"7":{"ChapterName":2607,"BeginLevel":81,"StarTotal":45,"strUrl":"Icon_conglin","ChapterNumbName":2507,"EndLevel":95,"strLevelUrl":"Level_conglin"}
+}

@@ -1,0 +1,20 @@
+<page>
+   <item name="test/TestScene.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="view/DiyToolScene.scene" props="" ifExport="默认" aName="多肉调整工具"/>
+   <item name="view/PottedList.scene" props="" ifExport="默认" aName="花盆列表"/>
+   <item name="view/common/TipViewScene.scene" props="" ifExport="默认" aName="提示框"/>
+   <item name="view/decorate/decorateUI.scene" props="" ifExport="默认" aName="装饰"/>
+   <item name="view/main/MainUI.scene" props="" ifExport="默认" aName="主界面"/>
+   <item name="view/StaffView.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="view/GatherView.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="view/StaffCommonView.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="view/StaffTimeView.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="view/common/ContentTip.scene" props="" ifExport="默认" aName="文字描述提示"/>
+   <item name="view/Flowerpot/FlowerpotStateView.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="view/common/commonTip.scene" props="" ifExport="默认" aName="通用tip"/>
+   <item name="view/UnLockView.scene" props="" ifExport="分离模式" aName=""/>
+   <item name="view/HandBookView.scene" props="" ifExport="默认" aName="图鉴"/>
+   <item name="view/common/ItemInfoView.scene" props="" ifExport="默认" aName="物品介绍"/>
+   <item name="view/common/BuyView.scene" props="" ifExport="默认" aName="多肉购买界面"/>
+   <item name="PlantView.scene" props="" ifExport="默认" aName="种植点"/>
+</page>

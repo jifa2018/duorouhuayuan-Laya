@@ -1,0 +1,32 @@
+{
+"skeleton": { "hash": "7kU2UYi1otEPJW7noxYru5apE0w", "spine": "3.6.53", "width": 64, "height": 128, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "images/光线", "bone": "root", "attachment": "images/光线", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"images/光线": {
+			"images/光线": { "width": 64, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"images/光线": {
+				"color": [
+					{ "time": 0, "color": "ffffff40" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff40" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "images/光线" }
+				]
+			}
+		}
+	}
+}
+}

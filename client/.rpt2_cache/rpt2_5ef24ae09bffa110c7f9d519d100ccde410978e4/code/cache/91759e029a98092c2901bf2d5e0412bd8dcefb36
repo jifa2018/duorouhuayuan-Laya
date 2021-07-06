@@ -1,0 +1,4 @@
+{
+  "code": "export class Global {\r\n}\r\nGlobal.tempVector3 = new Laya.Vector3();\r\n",
+  "references": []
+}
